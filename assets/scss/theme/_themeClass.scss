@@ -1,0 +1,31 @@
+.container{
+    max-width: 1260px;
+    padding: 0 10px;
+}
+.pl-30{
+   padding-left: 30px; 
+}
+.pl-40{
+    padding-left: 40px;
+}
+.container-1100{
+    max-width: 1100px;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+.pl-992-0{
+    @include media-991{
+        padding-left: 0;
+    }
+}
+.max-200{
+    max-width: 200px;
+}
+.ip-section-title{
+    h2{
+        span{
+            display: block;
+            font-weight: 300;
+        }
+    }
+}

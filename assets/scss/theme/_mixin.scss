@@ -1,0 +1,16 @@
+//mixin brackpoint
+@mixin media-1200{
+    @media (max-width:1200px) {
+        @content;
+    }
+}
+@mixin media-991{
+    @media (max-width:991px) {
+        @content;
+    }
+}
+@mixin media-575{
+    @media (max-width:575px) {
+        @content;
+    }
+}

@@ -1,0 +1,23 @@
+/*****
+
+Theme name : iptv
+Author : 
+Uri :
+*****/
+
+// Theme files
+@import "theme/variables";
+@import "theme/mixin";
+@import "theme/typography";
+@import "theme/themeClass";
+
+//page files
+@import "pages/index-1";
+
+
+
+
+// Component Files
+@import "component/buttons";
+@import "component/header";
+@import "component/fotter";

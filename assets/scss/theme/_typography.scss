@@ -1,0 +1,26 @@
+body{
+    font-family: Axiforma;
+    font-weight: 300;
+    font-size: 16px;
+    background: $body-bg;
+    overflow-x: hidden;
+}
+// typography 
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+h1{
+    font-size: 64px;
+    font-weight: 700;
+}
+h2{
+    font-size: 76px;
+    @include media-991{
+        font-size: 50px;
+    }
+}

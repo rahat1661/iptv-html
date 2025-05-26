@@ -1,0 +1,51 @@
+/*** header section ***/
+.ip_header-section{
+    padding: 85px 0;
+    position: relative;
+    z-index: 2;
+}
+.ip_header_right{
+    gap: 90px;
+    @include media-575{
+        gap: 24px;
+    }
+}
+.ip_leanguage_switcher{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    a{
+        font-size: 14px;
+        color: rgba($color-white, 0.8);
+        &.active{
+            height: 44px;
+            width: 44px;
+            border-radius: 50%;
+            background: $dark-bg;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+        }
+    }
+}
+.ip_header_links{
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        height: 32px;
+        width: 1px;
+        background: rgba($color-white, 0.2);
+        left: -45px;
+    }
+    a{
+        color: $color-white;
+        font-weight: 600;
+    }
+    @include media-575{
+        &::before{
+            left: -12px;
+        }
+    }
+}
