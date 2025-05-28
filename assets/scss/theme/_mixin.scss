@@ -4,6 +4,11 @@
         @content;
     }
 }
+@mixin media-2200{
+    @media (max-width:2200px) {
+        @content;
+    }
+}
 @mixin media-991{
     @media (max-width:991px) {
         @content;
@@ -11,6 +16,11 @@
 }
 @mixin media-575{
     @media (max-width:575px) {
+        @content;
+    }
+}
+@mixin media-768{
+    @media (max-width:768px) {
         @content;
     }
 }
